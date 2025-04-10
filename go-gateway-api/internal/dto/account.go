@@ -1,7 +1,7 @@
 package dto
 
 import (
-	"github.com/devfullcycle/imersao22/go-gateway/internal/domain"
+	"github.com/devfullcycle/imersao22/go-gateway-api/internal/domain"
 	"time"
 )
 
