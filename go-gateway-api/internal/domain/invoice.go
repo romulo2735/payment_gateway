@@ -27,11 +27,11 @@ type Invoice struct {
 }
 
 type CreditCard struct {
-	Number          string
-	ExpirationMonth int
-	ExpirationYear  int
-	CVV             string
-	CardHolderName  string
+	Number         string
+	ExpiryMonth    int
+	ExpiryYear     int
+	CVV            string
+	CardholderName string
 }
 
 // NewInvoice creates a new invoice with a unique ID and a random card number
